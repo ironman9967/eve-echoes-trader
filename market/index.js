@@ -8,6 +8,7 @@ module.exports = {
 		EEM_STATS_CSV_ENDPOINT = 'https://api.eve-echoes-market.com/market-stats/stats.csv',
 		CACHE_FILE_NAME = 'eem-items.json'
 	} = {}) => {
+		let inMemCache = void 0
 		const fetchData = () => fetch(EEM_STATS_CSV_ENDPOINT)
 			.then(res => res.text())
 			.then(csv => csv.split('\r\n').slice(0, -1))
@@ -45,10 +46,13 @@ module.exports = {
 						},
 						...res
 					}, null, '\t'))))
-					.then(() => res))
+					.then(() => {
+						inMemCache = void 0
+						return res
+					}))
 				.catch(err => {
 					if (err.code == 'ENOTFOUND') {
-						console.warn('*** UPDATE CACHE ATTEMPT FAILED - NO INTERNET CONNECTION - USING CACHE ***')
+						// console.warn('*** UPDATE CACHE ATTEMPT FAILED - NO INTERNET CONNECTION - USING CACHE ***')
 					}
 					else {
 						console.error(err)
@@ -56,21 +60,27 @@ module.exports = {
 					}
 				})
 			const getCache = () => fs.readFile(CACHE_FILE_NAME, 'utf8').then(JSON.parse)
-			return fs.stat(CACHE_FILE_NAME)
-				.catch(err => {
-					if (err.code != 'ENOENT') {
-						console.error(err)
-						process.exit(1)
-					}
-					return void 0
+				.then(cache => {
+					inMemCache = cache
+					return cache
 				})
-				.then(stats => stats == void 0 || force
-					? updateCache()
-					: getCache()
-					.then(res => Date.now() - res.meta.updated >= ageInHours * 60 * 60 * 1000
+			return inMemCache
+				? Promise.resolve(inMemCache)
+				: fs.stat(CACHE_FILE_NAME)
+					.catch(err => {
+						if (err.code != 'ENOENT') {
+							console.error(err)
+							process.exit(1)
+						}
+						return void 0
+					})
+					.then(stats => stats == void 0 || force
 						? updateCache()
-						: res))
-				.then(res => res ? res : getCache())
+						: getCache()
+						.then(res => Date.now() - res.meta.updated >= ageInHours * 60 * 60 * 1000
+							? updateCache()
+							: res))
+					.then(res => res ? res : getCache())
 		}
 		const searchMkt = (term, force) => getData(force)
 			.then(({ meta, items }) => {
@@ -86,11 +96,13 @@ module.exports = {
 		const feelingLuckyMkt = (term, force) => searchMkt(term, force)
 			.then(([ res ]) => getMktItem(res.id))
 		return {
-			getMktItem,
-			searchMkt,
-			feelingLuckyMkt,
-			priceMktItem: (term, force) => feelingLuckyMkt(term, force)
-				.then(({ sell }) => sell)
+			load: () => getData().then(() => ({
+				getMktItem,
+				searchMkt,
+				feelingLuckyMkt,
+				priceMktItem: (term, force) => feelingLuckyMkt(term, force)
+					.then(({ sell }) => sell)
+			}))
 		}
 	}
 }
