@@ -1,0 +1,20 @@
+[
+	{
+		"name": "veldspar",
+		"baseCost": 0,
+		"requirements": [{
+			"name": "veldspar",
+			"amount": 100
+		}],
+		"products": [
+			{
+				"name": "tritanium",
+				"amount": 1
+			},
+			{
+				"name": "pyerite",
+				"amount": 1
+			}
+		]
+	}
+]
