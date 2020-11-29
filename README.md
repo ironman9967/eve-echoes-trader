@@ -43,11 +43,11 @@
 	  <a href="#usage">Usage</a>
 	  <ul>
 	    <li><a href="#display-help">Display Help</li>
+	    <li><a href="#http-server">HTTP Server</li>
 	    <li><a href="#item-search">Item Search</li>
 	    <li><a href="#item-names">Item Names</li>
 	    <li><a href="#item-by-name">Item by Name</li>
 	    <li><a href="#item-by-id">Item by ID</li>
-	    <li><a href="#http-server">HTTP Server</li>
 	  </ul>
 	</li>
     <li><a href="#contributing">Contributing</a></li>
@@ -116,7 +116,7 @@ npx eve-echoes-trader item-names --use-json
 ```
 - ##### api
 ```
-GET /api/item/search?term=veld
+GET /api/item/names
 ```
 
 #### Item by Name
@@ -126,7 +126,7 @@ npx eve-echoes-trader item-by-name --name veldspar --use-json
 ```
 - ##### api
 ```
-GET /api/item/search?term=veld
+GET /api/item?name=veldspar
 ```
 
 #### Item by ID
@@ -136,7 +136,7 @@ npx eve-echoes-trader item-by-id --itemid 51000000000
 ```
 - ##### api
 ```
-GET /api/item/search?term=veld
+GET /api/item/51000000000
 ```
 
 <!-- CONTRIBUTING -->
