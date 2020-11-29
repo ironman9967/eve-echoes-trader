@@ -63,7 +63,7 @@
 	  <a href="#usage">Usage</a>
 	  <ul>
 	    <li><a href="#help">Help</li>
-		<li><a href="#itemsearch">Item Search</li>
+		<li><a href="#item-search">Item Search</li>
 		<li><a href="#LINK">[[ LABEL ]]</li>
 	  </ul>
 	</li>
