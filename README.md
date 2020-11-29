@@ -63,7 +63,7 @@
 	  <a href="#usage">Usage</a>
 	  <ul>
 	    <li><a href="#help">Help</li>
-		<li><a href="#usageItemSearch">Item Search</li>
+		<li><a href="#item search">Item Search</li>
 		<li><a href="#LINK">[[ LABEL ]]</li>
 	  </ul>
 	</li>
@@ -113,7 +113,7 @@ Please note all commands are available via `npm start`, just include the `--` re
 npx eve-echoes-trader --help
 ```
 
-- <h5 href="#usageItemSearch">Item Search</h5>
+- #### Item Search
 ```
 npx eve-echoes-trader item-search --term veld
 ```
