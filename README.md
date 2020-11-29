@@ -39,6 +39,8 @@
   <p align="center">
     A cli based market data searching system utilizing data from https://eve-echoes-market.com/api
     <br />
+    <a href="https://github.com/ironman9967/eve-echoes-trader"><strong>Explore the docs »</strong></a>
+    <br />
     <a href="https://github.com/ironman9967/eve-echoes-trader/issues">Report Bug</a>
     ·
     <a href="https://github.com/ironman9967/eve-echoes-trader/issues">Request Feature</a>
@@ -60,7 +62,7 @@
     <li>
 	  <a href="#usage">Usage</a>
 	  <ul>
-	    <li><a href="#usageHelp">Help</li>
+	    <li><a href="#help">Help</li>
 		<li><a href="#usageItemSearch">Item Search</li>
 		<li><a href="#LINK">[[ LABEL ]]</li>
 	  </ul>
@@ -106,7 +108,7 @@ This is an example of how to list things you need to use the software and how to
 
 Please note all commands are available via `npm start`, just include the `--` required by npm to pass parameters to the application. i.e. - `npm start -- --help`
 
-- <h5 href="#usageHelp">Help</h5>
+- #### Help
 ```
 npx eve-echoes-trader --help
 ```
