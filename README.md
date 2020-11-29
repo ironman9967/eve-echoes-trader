@@ -65,6 +65,7 @@
 	    <li><a href="#item-names">Item Names</li>
 	    <li><a href="#item-by-name">Item by Name</li>
 	    <li><a href="#item-by-id">Item by ID</li>
+	    <li><a href="#http-server">HTTP Server</li>
 	  </ul>
 	</li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -131,6 +132,11 @@ npx eve-echoes-trader item-by-name --name veldspar --use-json
 - #### Item by ID
 ```
 npx eve-echoes-trader item-by-id --itemid 51000000000
+```
+
+- #### HTTP Server
+```
+npx eve-echoes-trader serve --port 8765
 ```
 
 <!-- CONTRIBUTING -->
