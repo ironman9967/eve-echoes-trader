@@ -60,7 +60,7 @@
     <li>
 	  <a href="#usage">Usage</a>
 	  <ul>
-	    <li><a href="#help">Help</li>
+	    <li><a href="#display-help">Display Help</li>
 	    <li><a href="#item-search">Item Search</li>
 	    <li><a href="#item-names">Item Names</li>
 	    <li><a href="#item-by-name">Item by Name</li>
@@ -108,7 +108,7 @@ This is an example of how to list things you need to use the software and how to
 
 Please note all commands are available via `npm start`, just include the `--` required by npm to pass parameters to the application. i.e. - `npm start -- --help`
 
-- #### Help
+- #### Display Help
 ```
 npx eve-echoes-trader --help
 ```
