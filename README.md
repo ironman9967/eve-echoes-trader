@@ -39,8 +39,6 @@
   <p align="center">
     A cli based market data searching system utilizing data from https://eve-echoes-market.com/api
     <br />
-    <a href="https://github.com/ironman9967/eve-echoes-trader"><strong>Explore the docs »</strong></a>
-    <br />
     <a href="https://github.com/ironman9967/eve-echoes-trader/issues">Report Bug</a>
     ·
     <a href="https://github.com/ironman9967/eve-echoes-trader/issues">Request Feature</a>
@@ -63,8 +61,10 @@
 	  <a href="#usage">Usage</a>
 	  <ul>
 	    <li><a href="#help">Help</li>
-		<li><a href="#item-search">Item Search</li>
-		<li><a href="#LINK">[[ LABEL ]]</li>
+	    <li><a href="#item-search">Item Search</li>
+	    <li><a href="#item-names">Item Names</li>
+	    <li><a href="#item-by-name">Item by Name</li>
+	    <li><a href="#item-by-id">Item by ID</li>
 	  </ul>
 	</li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -118,17 +118,17 @@ npx eve-echoes-trader --help
 npx eve-echoes-trader item-search --term veld
 ```
 
-- <h5 href="#usageItemNames">Item Names</h5>
+- #### Item Names
 ```
 npx eve-echoes-trader item-names --use-json
 ```
 
-- <h5 href="#usageItemByName">Item by Name</h5>
+- #### Item by Name
 ```
 npx eve-echoes-trader item-by-name --name veldspar --use-json
 ```
 
-- <h5 href="#usageItemById">Item by ID</h5>
+- #### Item by ID
 ```
 npx eve-echoes-trader item-by-id --itemid 51000000000
 ```
