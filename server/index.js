@@ -8,7 +8,7 @@ module.exports = {
 		const server = Hapi.server({ port })
 		server.route({
 			method: 'GET',
-			path: '/item/search',
+			path: '/api/item/search',
 			handler: (req, h) => {
 				const term = req.query.term
 				return !term
@@ -20,12 +20,12 @@ module.exports = {
 		})
 		server.route({
 			method: 'GET',
-			path: '/item/names',
+			path: '/api/item/names',
 			handler: () => getItemNames()
 		})
 		server.route({
 			method: 'GET',
-			path: '/item/{itemId}',
+			path: '/api/item/{itemId}',
 			handler: (req, h) => getItemByItemId(req.params.itemId)
 				.then(item => item
 					? h.response(item)
@@ -33,7 +33,7 @@ module.exports = {
 		})
 		server.route({
 			method: 'GET',
-			path: '/item',
+			path: '/api/item',
 			handler: (req, h) => {
 				const name = req.query.name
 				return !name
