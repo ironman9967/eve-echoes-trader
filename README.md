@@ -100,20 +100,20 @@ npx eve-echoes-trader serve --port 8765
 ```
 
 ### Item Search
-- ##### cli `npx eve-echoes-trader item-search --term veld`
-- ##### api `GET /api/item/search?term=veld`
+- ##### cli ```npx eve-echoes-trader item-search --term veld```
+- ##### api ```GET /api/item/search?term=veld```
 
 ### Item Names
-- ##### cli `npx eve-echoes-trader item-names --use-json`
-- ##### api `GET /api/item/names`
+- ##### cli ```npx eve-echoes-trader item-names --use-json```
+- ##### api ```GET /api/item/names```
 
 ### Item by Name
-- ##### cli `npx eve-echoes-trader item-by-name --name veldspar --use-json`
-- ##### api `GET /api/item?name=veldspar`
+- ##### cli ```npx eve-echoes-trader item-by-name --name veldspar --use-json```
+- ##### api ```GET /api/item?name=veldspar```
 
 ### Item by ID
-- ##### cli `npx eve-echoes-trader item-by-id --itemid 51000000000`
-- ##### api `GET /api/item/51000000000`
+- ##### cli ```npx eve-echoes-trader item-by-id --itemid 51000000000```
+- ##### api ```GET /api/item/51000000000```
 
 <!-- CONTRIBUTING -->
 ## Contributing
