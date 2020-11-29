@@ -33,26 +33,31 @@ module.exports = {
 						.then(meta => ({ meta, head })))
 				const getItemNames = () =>
 					Promise.resolve(itemHeads.map(({ name }) => name))
+				const getItem = id => getItemHead(id)
+					.then(({ meta, head: { id, itemId, ...itemHead } }) => ({
+						meta,
+						id,
+						itemId,
+						getItemIdStr: () => `i${itemId}`,
+						...itemHead
+					}))
+					.then(item => cacherGet(item.getItemIdStr())
+						.then(stats => stats && Date.now() - stats.meta.lastDownload.stamp <= cacheMaxAge
+							? { ...item, stats }
+							: addTask(() => fetchItemStats(item.itemId)
+									.then(stats => cacherSet(item.getItemIdStr())(stats)))
+							.then(() => cacherGet(item.getItemIdStr()))
+							.then(stats => ({ ...item, stats }))))
 				return {
+					search,
 					getItemNames,
 					getItem: term => search(term)
 						.then(results => results ? results[0] : null)
-						.then(result => result
-							? getItemHead(result.id)
-								.then(({ meta, head: { id, itemId, ...itemHead } }) => ({
-									meta,
-									id,
-									itemId,
-									getItemIdStr: () => `i${itemId}`,
-									...itemHead
-								}))
-								.then(item => cacherGet(item.getItemIdStr())
-									.then(stats => stats && Date.now() - stats.meta.lastDownload.stamp <= cacheMaxAge
-										? { ...item, stats }
-										: addTask(() => fetchItemStats(item.itemId)
-												.then(stats => cacherSet(item.getItemIdStr())(stats)))
-										.then(() => cacherGet(item.getItemIdStr()))
-										.then(stats => ({ ...item, stats }))))
+						.then(result => result ? getItem(result.id) : null),
+					getItemByItemId: itemIdToGet => cacherGet('itemHeadData.heads')
+						.then(itemHeads => itemHeads.find(({ itemId }) => itemId == itemIdToGet))
+						.then(itemHead => itemHead
+							? getItem(itemHead.id)
 							: null)
 				}
 			})

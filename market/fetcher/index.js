@@ -42,7 +42,6 @@ module.exports = ({
 									duration: Date.now() - stamp
 								}
 							},
-							itemId,
 							entries: JSON.parse(text).map(({
 								time,
 								sell,

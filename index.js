@@ -14,13 +14,10 @@ const _set = require('lodash/fp/set')
 
 const asyncQueue = require('async/queue')
 
-const productionData = require('./production-data.json')
-
 const { create: createMarket } = require('./market')
 const { create: createCacher } = require('./market/cacher')
 const { create: createFetcher } = require('./market/fetcher')
-const { create: createIndustry } = require('./industry')
-const { create: createProduction } = require('./production')
+const { create: createServer } = require('./server')
 
 const cacheMaxAge = 1 * 60 * 60 * 1000
 
@@ -36,22 +33,7 @@ const createQueue = ({ asyncQueue } = {}) =>
 const queue = createQueue({ asyncQueue })
 
 const port = 8080
-const server = Hapi.server({ port })
 
 createMarket({ MiniSearch, fetcher, cacher, queue, cacheMaxAge }).load()
-.then(({ getItem }) => {
-	server.route({
-		method: 'GET',
-		path: '/search',
-		handler: (req, h) => {
-			const term = req.query.term
-			return !term
-				? h.response({ msg: 'term is required' }).code(400)
-				: getItem(term).then(item => item
-					? h.response(item)
-					: h.response({ msg: 'no match' }).code(200))
-		}
-	})
-	return server.start()
-})
+.then(market => createServer({ Hapi, port, market }).start())
 .then(() => console.log(`http://localhost:${port}/`))
