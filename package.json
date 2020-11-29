@@ -5,14 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "clear-cache": "rm -rf cache",
+    "start-clean": "npm run clear-cache && npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hapi/hapi": "^20.0.3",
+    "async": "^3.2.0",
+    "bluebird": "^3.7.2",
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.20",
     "mathjs": "^7.5.1",
     "minisearch": "^3.0.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "walkdir": "^0.4.1"
   }
 }

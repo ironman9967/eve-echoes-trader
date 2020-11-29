@@ -1,0 +1,3067 @@
+{
+	"meta": {
+		"lastDownload": {
+			"stamp": 1606627895056,
+			"duration": 505
+		}
+	},
+	"itemId": "10100000105",
+	"entries": [
+		{
+			"time": 1599555600,
+			"sell": 15800,
+			"buy": 290,
+			"lowestSell": 1000,
+			"highestBuy": 3500,
+			"volume": null
+		},
+		{
+			"time": 1599566400,
+			"sell": 15800,
+			"buy": 288,
+			"lowestSell": 100,
+			"highestBuy": 3500,
+			"volume": 24
+		},
+		{
+			"time": 1599580800,
+			"sell": 13800,
+			"buy": 287,
+			"lowestSell": 100,
+			"highestBuy": 3500,
+			"volume": 16
+		},
+		{
+			"time": 1599591600,
+			"sell": 13800,
+			"buy": 285,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 41
+		},
+		{
+			"time": 1599602400,
+			"sell": 1530,
+			"buy": 327,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 21
+		},
+		{
+			"time": 1599616800,
+			"sell": 1530,
+			"buy": 326,
+			"lowestSell": 500,
+			"highestBuy": 1100,
+			"volume": 23
+		},
+		{
+			"time": 1599631200,
+			"sell": 3040,
+			"buy": 325,
+			"lowestSell": 500,
+			"highestBuy": 1100,
+			"volume": 1002
+		},
+		{
+			"time": 1599681600,
+			"sell": 3170,
+			"buy": 262,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 168
+		},
+		{
+			"time": 1599692400,
+			"sell": 3320,
+			"buy": 260,
+			"lowestSell": 500,
+			"highestBuy": 1100,
+			"volume": 30
+		},
+		{
+			"time": 1599706800,
+			"sell": 3070,
+			"buy": 258,
+			"lowestSell": 500,
+			"highestBuy": 1100,
+			"volume": 18
+		},
+		{
+			"time": 1599721200,
+			"sell": 3150,
+			"buy": 372,
+			"lowestSell": 500,
+			"highestBuy": 1100,
+			"volume": 27
+		},
+		{
+			"time": 1599732000,
+			"sell": 3360,
+			"buy": 449,
+			"lowestSell": 500,
+			"highestBuy": 1100,
+			"volume": 1031
+		},
+		{
+			"time": 1599746400,
+			"sell": 3340,
+			"buy": 448,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 50
+		},
+		{
+			"time": 1599760800,
+			"sell": 2990,
+			"buy": 448,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 40
+		},
+		{
+			"time": 1599771600,
+			"sell": 3060,
+			"buy": 448,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 31
+		},
+		{
+			"time": 1599786000,
+			"sell": 2650,
+			"buy": 645,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 1985
+		},
+		{
+			"time": 1599800400,
+			"sell": 2820,
+			"buy": 447,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 39
+		},
+		{
+			"time": 1599811200,
+			"sell": 2870,
+			"buy": 644,
+			"lowestSell": 1,
+			"highestBuy": 1100,
+			"volume": 25
+		},
+		{
+			"time": 1599825600,
+			"sell": 2640,
+			"buy": 644,
+			"lowestSell": 1,
+			"highestBuy": 1115,
+			"volume": 119
+		},
+		{
+			"time": 1599840000,
+			"sell": 2610,
+			"buy": 438,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 452
+		},
+		{
+			"time": 1599850800,
+			"sell": 2650,
+			"buy": 651,
+			"lowestSell": 100,
+			"highestBuy": 1500,
+			"volume": 2431
+		},
+		{
+			"time": 1599865200,
+			"sell": 2760,
+			"buy": 651,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 36
+		},
+		{
+			"time": 1599879600,
+			"sell": 3110,
+			"buy": 435,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 443
+		},
+		{
+			"time": 1599890400,
+			"sell": 2810,
+			"buy": 433,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 32
+		},
+		{
+			"time": 1599904800,
+			"sell": 3080,
+			"buy": 435,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 440
+		},
+		{
+			"time": 1599919200,
+			"sell": 3300,
+			"buy": 349,
+			"lowestSell": 1000,
+			"highestBuy": 1500,
+			"volume": 116
+		},
+		{
+			"time": 1599933600,
+			"sell": 2740,
+			"buy": 420,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 1020
+		},
+		{
+			"time": 1599948000,
+			"sell": 2880,
+			"buy": 348,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 104
+		},
+		{
+			"time": 1599958800,
+			"sell": 4030,
+			"buy": 347,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 18
+		},
+		{
+			"time": 1599973200,
+			"sell": 4040,
+			"buy": 345,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 26
+		},
+		{
+			"time": 1599987600,
+			"sell": 3930,
+			"buy": 420,
+			"lowestSell": 1,
+			"highestBuy": 3000,
+			"volume": 42
+		},
+		{
+			"time": 1600002000,
+			"sell": 3740,
+			"buy": 420,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 40
+		},
+		{
+			"time": 1600016400,
+			"sell": 4130,
+			"buy": 346,
+			"lowestSell": 1,
+			"highestBuy": 1690,
+			"volume": 138
+		},
+		{
+			"time": 1600030800,
+			"sell": 3610,
+			"buy": 345,
+			"lowestSell": 1000,
+			"highestBuy": 1690,
+			"volume": 60
+		},
+		{
+			"time": 1600045200,
+			"sell": 3550,
+			"buy": 439,
+			"lowestSell": 1000,
+			"highestBuy": 1690,
+			"volume": 35
+		},
+		{
+			"time": 1600056000,
+			"sell": 3470,
+			"buy": 429,
+			"lowestSell": 50,
+			"highestBuy": 1690,
+			"volume": 128
+		},
+		{
+			"time": 1600070400,
+			"sell": 4300,
+			"buy": 413,
+			"lowestSell": 50,
+			"highestBuy": 2500,
+			"volume": 518
+		},
+		{
+			"time": 1600084800,
+			"sell": 4160,
+			"buy": 413,
+			"lowestSell": 50,
+			"highestBuy": 2500,
+			"volume": 30
+		},
+		{
+			"time": 1600099200,
+			"sell": 3120,
+			"buy": 426,
+			"lowestSell": 1,
+			"highestBuy": 1690,
+			"volume": 81
+		},
+		{
+			"time": 1600113600,
+			"sell": 3900,
+			"buy": 429,
+			"lowestSell": 1,
+			"highestBuy": 1690,
+			"volume": 21
+		},
+		{
+			"time": 1600128000,
+			"sell": 3120,
+			"buy": 324,
+			"lowestSell": 1000,
+			"highestBuy": 1690,
+			"volume": 1074
+		},
+		{
+			"time": 1600142400,
+			"sell": 4510,
+			"buy": 230,
+			"lowestSell": 1000,
+			"highestBuy": 1690,
+			"volume": 59
+		},
+		{
+			"time": 1600156800,
+			"sell": 4540,
+			"buy": 229,
+			"lowestSell": 9,
+			"highestBuy": 1690,
+			"volume": 20
+		},
+		{
+			"time": 1600171200,
+			"sell": 4510,
+			"buy": 228,
+			"lowestSell": 500,
+			"highestBuy": 1690,
+			"volume": 24
+		},
+		{
+			"time": 1600185600,
+			"sell": 2720,
+			"buy": 333,
+			"lowestSell": 1,
+			"highestBuy": 3000,
+			"volume": 1173
+		},
+		{
+			"time": 1600200000,
+			"sell": 4320,
+			"buy": 324,
+			"lowestSell": 500,
+			"highestBuy": 3000,
+			"volume": 126
+		},
+		{
+			"time": 1600214400,
+			"sell": 4210,
+			"buy": 323,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 35
+		},
+		{
+			"time": 1600239600,
+			"sell": 4680,
+			"buy": 304,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 436
+		},
+		{
+			"time": 1600286400,
+			"sell": 4450,
+			"buy": 323,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 143
+		},
+		{
+			"time": 1600308000,
+			"sell": 4850,
+			"buy": 322,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 55
+		},
+		{
+			"time": 1600329600,
+			"sell": 4590,
+			"buy": 321,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 66
+		},
+		{
+			"time": 1600351200,
+			"sell": 4260,
+			"buy": 319,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 77
+		},
+		{
+			"time": 1600372800,
+			"sell": 4530,
+			"buy": 318,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 72
+		},
+		{
+			"time": 1600394400,
+			"sell": 4090,
+			"buy": 317,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 36
+		},
+		{
+			"time": 1600416000,
+			"sell": 4030,
+			"buy": 346,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 37
+		},
+		{
+			"time": 1600459200,
+			"sell": 4380,
+			"buy": 291,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 500
+		},
+		{
+			"time": 1600484400,
+			"sell": 4420,
+			"buy": 288,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 80
+		},
+		{
+			"time": 1600495200,
+			"sell": 4400,
+			"buy": 264,
+			"lowestSell": 3500,
+			"highestBuy": 3000,
+			"volume": 217
+		},
+		{
+			"time": 1600520400,
+			"sell": 4370,
+			"buy": 322,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 400
+		},
+		{
+			"time": 1600545600,
+			"sell": 4110,
+			"buy": 276,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 116
+		},
+		{
+			"time": 1600570800,
+			"sell": 4370,
+			"buy": 254,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 97
+		},
+		{
+			"time": 1600585200,
+			"sell": 3750,
+			"buy": 252,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 1074
+		},
+		{
+			"time": 1600599600,
+			"sell": 5000,
+			"buy": 268,
+			"lowestSell": 5000,
+			"highestBuy": 3000,
+			"volume": 348
+		},
+		{
+			"time": 1600610400,
+			"sell": 4410,
+			"buy": 249,
+			"lowestSell": 3800,
+			"highestBuy": 3000,
+			"volume": 98
+		},
+		{
+			"time": 1600621200,
+			"sell": 4430,
+			"buy": 248,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 55
+		},
+		{
+			"time": 1600635600,
+			"sell": 3790,
+			"buy": 327,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 61
+		},
+		{
+			"time": 1600646400,
+			"sell": 4840,
+			"buy": 287,
+			"lowestSell": 3800,
+			"highestBuy": 3000,
+			"volume": 65
+		},
+		{
+			"time": 1600660800,
+			"sell": 4790,
+			"buy": 323,
+			"lowestSell": 3800,
+			"highestBuy": 3000,
+			"volume": 42
+		},
+		{
+			"time": 1600671600,
+			"sell": 3940,
+			"buy": 324,
+			"lowestSell": 20,
+			"highestBuy": 3000,
+			"volume": 93
+		},
+		{
+			"time": 1600682400,
+			"sell": 4010,
+			"buy": 329,
+			"lowestSell": 1950,
+			"highestBuy": 3000,
+			"volume": 35
+		},
+		{
+			"time": 1600696800,
+			"sell": 4360,
+			"buy": 328,
+			"lowestSell": 3800,
+			"highestBuy": 3000,
+			"volume": 59
+		},
+		{
+			"time": 1600707600,
+			"sell": 4670,
+			"buy": 327,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 133
+		},
+		{
+			"time": 1600722000,
+			"sell": 5170,
+			"buy": 325,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 74
+		},
+		{
+			"time": 1600732800,
+			"sell": 5110,
+			"buy": 338,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 48
+		},
+		{
+			"time": 1600743600,
+			"sell": 4550,
+			"buy": 362,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 1031
+		},
+		{
+			"time": 1600758000,
+			"sell": 4810,
+			"buy": 352,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 358
+		},
+		{
+			"time": 1600768800,
+			"sell": 5110,
+			"buy": 301,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 1162
+		},
+		{
+			"time": 1600783200,
+			"sell": 4700,
+			"buy": 363,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 50
+		},
+		{
+			"time": 1600794000,
+			"sell": 4950,
+			"buy": 284,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 1073
+		},
+		{
+			"time": 1600804800,
+			"sell": 4710,
+			"buy": 283,
+			"lowestSell": 50,
+			"highestBuy": 3000,
+			"volume": 61
+		},
+		{
+			"time": 1600819200,
+			"sell": 4990,
+			"buy": 283,
+			"lowestSell": 2200,
+			"highestBuy": 3000,
+			"volume": 78
+		},
+		{
+			"time": 1600830000,
+			"sell": 4370,
+			"buy": 331,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 109
+		},
+		{
+			"time": 1600844400,
+			"sell": 4580,
+			"buy": 282,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 23
+		},
+		{
+			"time": 1600855200,
+			"sell": 4510,
+			"buy": 328,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 117
+		},
+		{
+			"time": 1600866000,
+			"sell": 3740,
+			"buy": 325,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 36
+		},
+		{
+			"time": 1600880400,
+			"sell": 3740,
+			"buy": 281,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 59
+		},
+		{
+			"time": 1600891200,
+			"sell": 3720,
+			"buy": 280,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 87
+		},
+		{
+			"time": 1600905600,
+			"sell": 3680,
+			"buy": 326,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 161
+		},
+		{
+			"time": 1600916400,
+			"sell": 3690,
+			"buy": 279,
+			"lowestSell": 1999,
+			"highestBuy": 3000,
+			"volume": 51
+		},
+		{
+			"time": 1600927200,
+			"sell": 4710,
+			"buy": 279,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 142
+		},
+		{
+			"time": 1600981200,
+			"sell": 4650,
+			"buy": 331,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 184
+		},
+		{
+			"time": 1600992000,
+			"sell": 4790,
+			"buy": 335,
+			"lowestSell": 1999,
+			"highestBuy": 3000,
+			"volume": 148
+		},
+		{
+			"time": 1601002800,
+			"sell": 4700,
+			"buy": 322,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 1045
+		},
+		{
+			"time": 1601017200,
+			"sell": 4320,
+			"buy": 320,
+			"lowestSell": 100,
+			"highestBuy": 3000,
+			"volume": 112
+		},
+		{
+			"time": 1601028000,
+			"sell": 4140,
+			"buy": 266,
+			"lowestSell": 100,
+			"highestBuy": 3000,
+			"volume": 156
+		},
+		{
+			"time": 1601042400,
+			"sell": 4110,
+			"buy": 265,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 56
+		},
+		{
+			"time": 1601053200,
+			"sell": 4240,
+			"buy": 265,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 52
+		},
+		{
+			"time": 1601064000,
+			"sell": 3770,
+			"buy": 265,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 46
+		},
+		{
+			"time": 1601078400,
+			"sell": 5000,
+			"buy": 265,
+			"lowestSell": 5000,
+			"highestBuy": 3000,
+			"volume": 830
+		},
+		{
+			"time": 1601089200,
+			"sell": 3230,
+			"buy": 263,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 38
+		},
+		{
+			"time": 1601103600,
+			"sell": 4580,
+			"buy": 272,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 45
+		},
+		{
+			"time": 1601114400,
+			"sell": 4510,
+			"buy": 274,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 116
+		},
+		{
+			"time": 1601125200,
+			"sell": 4150,
+			"buy": 244,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 49
+		},
+		{
+			"time": 1601139600,
+			"sell": 4120,
+			"buy": 244,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 57
+		},
+		{
+			"time": 1601150400,
+			"sell": 4830,
+			"buy": 188,
+			"lowestSell": 500,
+			"highestBuy": 3000,
+			"volume": 860
+		},
+		{
+			"time": 1601164800,
+			"sell": 4960,
+			"buy": 183,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 52
+		},
+		{
+			"time": 1601175600,
+			"sell": 4850,
+			"buy": 188,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 26
+		},
+		{
+			"time": 1601186400,
+			"sell": 4790,
+			"buy": 187,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 30
+		},
+		{
+			"time": 1601200800,
+			"sell": 4790,
+			"buy": 187,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 3242
+		},
+		{
+			"time": 1601211600,
+			"sell": 4780,
+			"buy": 187,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 17
+		},
+		{
+			"time": 1601226000,
+			"sell": 4770,
+			"buy": 188,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 211
+		},
+		{
+			"time": 1601236800,
+			"sell": 4730,
+			"buy": 187,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 48
+		},
+		{
+			"time": 1601247600,
+			"sell": 4720,
+			"buy": 182,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 47
+		},
+		{
+			"time": 1601262000,
+			"sell": 4750,
+			"buy": 258,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 79
+		},
+		{
+			"time": 1601272800,
+			"sell": 4740,
+			"buy": 186,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 1037
+		},
+		{
+			"time": 1601287200,
+			"sell": 4860,
+			"buy": 185,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 43
+		},
+		{
+			"time": 1601298000,
+			"sell": 4660,
+			"buy": 181,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 37
+		},
+		{
+			"time": 1601308800,
+			"sell": 4760,
+			"buy": 254,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 189
+		},
+		{
+			"time": 1601323200,
+			"sell": 4760,
+			"buy": 253,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 62
+		},
+		{
+			"time": 1601334000,
+			"sell": 4740,
+			"buy": 255,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 116
+		},
+		{
+			"time": 1601348400,
+			"sell": 4760,
+			"buy": 254,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 33
+		},
+		{
+			"time": 1601359200,
+			"sell": 4760,
+			"buy": 271,
+			"lowestSell": 1700,
+			"highestBuy": 3000,
+			"volume": 520
+		},
+		{
+			"time": 1601370000,
+			"sell": 4600,
+			"buy": 248,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 112
+		},
+		{
+			"time": 1601384400,
+			"sell": 4690,
+			"buy": 253,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 76
+		},
+		{
+			"time": 1601395200,
+			"sell": 4780,
+			"buy": 252,
+			"lowestSell": 50,
+			"highestBuy": 3000,
+			"volume": 153
+		},
+		{
+			"time": 1601409600,
+			"sell": 4650,
+			"buy": 248,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 63
+		},
+		{
+			"time": 1601420400,
+			"sell": 4650,
+			"buy": 529,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 2401
+		},
+		{
+			"time": 1601431200,
+			"sell": 4730,
+			"buy": 555,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 47
+		},
+		{
+			"time": 1601445600,
+			"sell": 4670,
+			"buy": 529,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 33
+		},
+		{
+			"time": 1601503200,
+			"sell": 4860,
+			"buy": 555,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 266
+		},
+		{
+			"time": 1601514000,
+			"sell": 4880,
+			"buy": 555,
+			"lowestSell": 3990,
+			"highestBuy": 3000,
+			"volume": 27
+		},
+		{
+			"time": 1601528400,
+			"sell": 4870,
+			"buy": 555,
+			"lowestSell": 3500,
+			"highestBuy": 3000,
+			"volume": 18
+		},
+		{
+			"time": 1601539200,
+			"sell": 4880,
+			"buy": 555,
+			"lowestSell": 3500,
+			"highestBuy": 3000,
+			"volume": 34
+		},
+		{
+			"time": 1601553600,
+			"sell": 3740,
+			"buy": 655,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 626
+		},
+		{
+			"time": 1601564400,
+			"sell": 4630,
+			"buy": 620,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 77
+		},
+		{
+			"time": 1601575200,
+			"sell": 4800,
+			"buy": 634,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 127
+		},
+		{
+			"time": 1601589600,
+			"sell": 4890,
+			"buy": 633,
+			"lowestSell": 500,
+			"highestBuy": 3000,
+			"volume": 75
+		},
+		{
+			"time": 1601600400,
+			"sell": 4820,
+			"buy": 631,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 45
+		},
+		{
+			"time": 1601614800,
+			"sell": 4810,
+			"buy": 631,
+			"lowestSell": 2000,
+			"highestBuy": 4000,
+			"volume": 36
+		},
+		{
+			"time": 1601625600,
+			"sell": 4920,
+			"buy": 567,
+			"lowestSell": 1000,
+			"highestBuy": 4000,
+			"volume": 640
+		},
+		{
+			"time": 1601636400,
+			"sell": 4760,
+			"buy": 424,
+			"lowestSell": 2000,
+			"highestBuy": 4000,
+			"volume": 171
+		},
+		{
+			"time": 1601650800,
+			"sell": 4730,
+			"buy": 418,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 85
+		},
+		{
+			"time": 1601661600,
+			"sell": 4770,
+			"buy": 417,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 155
+		},
+		{
+			"time": 1601676000,
+			"sell": 4870,
+			"buy": 448,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 144
+		},
+		{
+			"time": 1601686800,
+			"sell": 4840,
+			"buy": 447,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 39
+		},
+		{
+			"time": 1601697600,
+			"sell": 4760,
+			"buy": 492,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 556
+		},
+		{
+			"time": 1601712000,
+			"sell": 4880,
+			"buy": 451,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 1017
+		},
+		{
+			"time": 1601722800,
+			"sell": 4940,
+			"buy": 451,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 43
+		},
+		{
+			"time": 1601737200,
+			"sell": 4910,
+			"buy": 490,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 531
+		},
+		{
+			"time": 1601748000,
+			"sell": 4660,
+			"buy": 489,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 28
+		},
+		{
+			"time": 1601758800,
+			"sell": 4690,
+			"buy": 664,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 1048
+		},
+		{
+			"time": 1601773200,
+			"sell": 4920,
+			"buy": 664,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 48
+		},
+		{
+			"time": 1601784000,
+			"sell": 4870,
+			"buy": 663,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 49
+		},
+		{
+			"time": 1601798400,
+			"sell": 4500,
+			"buy": 487,
+			"lowestSell": 1300,
+			"highestBuy": 3000,
+			"volume": 43
+		},
+		{
+			"time": 1601809200,
+			"sell": 4810,
+			"buy": 487,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 58
+		},
+		{
+			"time": 1601820000,
+			"sell": 4950,
+			"buy": 487,
+			"lowestSell": 2400,
+			"highestBuy": 3000,
+			"volume": 51
+		},
+		{
+			"time": 1601834400,
+			"sell": 4780,
+			"buy": 486,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 55
+		},
+		{
+			"time": 1601845200,
+			"sell": 4710,
+			"buy": 486,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 41
+		},
+		{
+			"time": 1601859600,
+			"sell": 4660,
+			"buy": 522,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 1022
+		},
+		{
+			"time": 1601870400,
+			"sell": 4650,
+			"buy": 522,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 29
+		},
+		{
+			"time": 1601881200,
+			"sell": 4730,
+			"buy": 480,
+			"lowestSell": 1003,
+			"highestBuy": 3000,
+			"volume": 39
+		},
+		{
+			"time": 1601895600,
+			"sell": 4200,
+			"buy": 485,
+			"lowestSell": 2400,
+			"highestBuy": 3000,
+			"volume": 51
+		},
+		{
+			"time": 1601906400,
+			"sell": 4180,
+			"buy": 484,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 37
+		},
+		{
+			"time": 1601920800,
+			"sell": 4150,
+			"buy": 483,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 27
+		},
+		{
+			"time": 1601931600,
+			"sell": 4350,
+			"buy": 480,
+			"lowestSell": 3500,
+			"highestBuy": 3000,
+			"volume": 62
+		},
+		{
+			"time": 1601942400,
+			"sell": 4410,
+			"buy": 479,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 29
+		},
+		{
+			"time": 1601956800,
+			"sell": 4310,
+			"buy": 478,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 18
+		},
+		{
+			"time": 1601967600,
+			"sell": 4260,
+			"buy": 478,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 29
+		},
+		{
+			"time": 1601982000,
+			"sell": 4280,
+			"buy": 657,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 1025
+		},
+		{
+			"time": 1601992800,
+			"sell": 4300,
+			"buy": 810,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 1006
+		},
+		{
+			"time": 1602003600,
+			"sell": 4270,
+			"buy": 601,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 417
+		},
+		{
+			"time": 1602018000,
+			"sell": 4200,
+			"buy": 601,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 33
+		},
+		{
+			"time": 1602028800,
+			"sell": 4070,
+			"buy": 601,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 33
+		},
+		{
+			"time": 1602043200,
+			"sell": 4060,
+			"buy": 601,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 30
+		},
+		{
+			"time": 1602054000,
+			"sell": 3960,
+			"buy": 600,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 20
+		},
+		{
+			"time": 1602122400,
+			"sell": 3980,
+			"buy": 644,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 117
+		},
+		{
+			"time": 1602136800,
+			"sell": 3940,
+			"buy": 644,
+			"lowestSell": 10,
+			"highestBuy": 3000,
+			"volume": 30
+		},
+		{
+			"time": 1602147600,
+			"sell": 3980,
+			"buy": 640,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 17
+		},
+		{
+			"time": 1602162000,
+			"sell": 4010,
+			"buy": 640,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 28
+		},
+		{
+			"time": 1602172800,
+			"sell": 4010,
+			"buy": 639,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 35
+		},
+		{
+			"time": 1602187200,
+			"sell": 3920,
+			"buy": 639,
+			"lowestSell": 2,
+			"highestBuy": 3000,
+			"volume": 26
+		},
+		{
+			"time": 1602198000,
+			"sell": 4030,
+			"buy": 638,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 61
+		},
+		{
+			"time": 1602208800,
+			"sell": 3970,
+			"buy": 637,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 29
+		},
+		{
+			"time": 1602223200,
+			"sell": 3970,
+			"buy": 636,
+			"lowestSell": 1100,
+			"highestBuy": 3000,
+			"volume": 16
+		},
+		{
+			"time": 1602234000,
+			"sell": 3990,
+			"buy": 636,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 21
+		},
+		{
+			"time": 1602248400,
+			"sell": 3980,
+			"buy": 635,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 19
+		},
+		{
+			"time": 1602259200,
+			"sell": 3950,
+			"buy": 635,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 45
+		},
+		{
+			"time": 1602270000,
+			"sell": 3970,
+			"buy": 634,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 106
+		},
+		{
+			"time": 1602284400,
+			"sell": 3980,
+			"buy": 633,
+			"lowestSell": 1212,
+			"highestBuy": 3000,
+			"volume": 40
+		},
+		{
+			"time": 1602295200,
+			"sell": 3990,
+			"buy": 633,
+			"lowestSell": 1212,
+			"highestBuy": 3000,
+			"volume": 18
+		},
+		{
+			"time": 1602309600,
+			"sell": 3930,
+			"buy": 633,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 24
+		},
+		{
+			"time": 1602320400,
+			"sell": 3970,
+			"buy": 633,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 21
+		},
+		{
+			"time": 1602331200,
+			"sell": 3930,
+			"buy": 770,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 988
+		},
+		{
+			"time": 1602345600,
+			"sell": 4000,
+			"buy": 735,
+			"lowestSell": 2500,
+			"highestBuy": 3000,
+			"volume": 29
+		},
+		{
+			"time": 1602356400,
+			"sell": 4250,
+			"buy": 642,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 19
+		},
+		{
+			"time": 1602370800,
+			"sell": 4270,
+			"buy": 641,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 21
+		},
+		{
+			"time": 1602381600,
+			"sell": 4180,
+			"buy": 641,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 21
+		},
+		{
+			"time": 1602392400,
+			"sell": 4280,
+			"buy": 641,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 31
+		},
+		{
+			"time": 1602406800,
+			"sell": 4150,
+			"buy": 640,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 31
+		},
+		{
+			"time": 1602417600,
+			"sell": 4180,
+			"buy": 640,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 43
+		},
+		{
+			"time": 1602432000,
+			"sell": 4330,
+			"buy": 654,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 942
+		},
+		{
+			"time": 1602442800,
+			"sell": 4790,
+			"buy": 653,
+			"lowestSell": 1500,
+			"highestBuy": 3000,
+			"volume": 105
+		},
+		{
+			"time": 1602453600,
+			"sell": 4940,
+			"buy": 652,
+			"lowestSell": 4000,
+			"highestBuy": 3000,
+			"volume": 22
+		},
+		{
+			"time": 1602468000,
+			"sell": 4740,
+			"buy": 652,
+			"lowestSell": 900,
+			"highestBuy": 3000,
+			"volume": 16
+		},
+		{
+			"time": 1602478800,
+			"sell": 4930,
+			"buy": 650,
+			"lowestSell": 4500,
+			"highestBuy": 3000,
+			"volume": 36
+		},
+		{
+			"time": 1602489600,
+			"sell": 4700,
+			"buy": 648,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 24
+		},
+		{
+			"time": 1602504000,
+			"sell": 3900,
+			"buy": 647,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 51
+		},
+		{
+			"time": 1602514800,
+			"sell": 3910,
+			"buy": 645,
+			"lowestSell": 500,
+			"highestBuy": 3000,
+			"volume": 32
+		},
+		{
+			"time": 1602529200,
+			"sell": 3880,
+			"buy": 645,
+			"lowestSell": 1000,
+			"highestBuy": 3000,
+			"volume": 28
+		},
+		{
+			"time": 1602540000,
+			"sell": 3840,
+			"buy": 655,
+			"lowestSell": 300,
+			"highestBuy": 3000,
+			"volume": 245
+		},
+		{
+			"time": 1602550800,
+			"sell": 3800,
+			"buy": 657,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 21
+		},
+		{
+			"time": 1602565200,
+			"sell": 3800,
+			"buy": 657,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 23
+		},
+		{
+			"time": 1602576000,
+			"sell": 3770,
+			"buy": 656,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 23
+		},
+		{
+			"time": 1602590400,
+			"sell": 3900,
+			"buy": 655,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 37
+		},
+		{
+			"time": 1602601200,
+			"sell": 3810,
+			"buy": 656,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 31
+		},
+		{
+			"time": 1602612000,
+			"sell": 3840,
+			"buy": 654,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 36
+		},
+		{
+			"time": 1602626400,
+			"sell": 4770,
+			"buy": 644,
+			"lowestSell": 3000,
+			"highestBuy": 3000,
+			"volume": 38
+		},
+		{
+			"time": 1602637200,
+			"sell": 4740,
+			"buy": 730,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 42
+		},
+		{
+			"time": 1602651600,
+			"sell": 4800,
+			"buy": 729,
+			"lowestSell": 1,
+			"highestBuy": 3000,
+			"volume": 36
+		},
+		{
+			"time": 1602738000,
+			"sell": 5000,
+			"buy": 760,
+			"lowestSell": 450,
+			"highestBuy": 3000,
+			"volume": 264
+		},
+		{
+			"time": 1602748800,
+			"sell": 5090,
+			"buy": 756,
+			"lowestSell": 2000,
+			"highestBuy": 3000,
+			"volume": 74
+		},
+		{
+			"time": 1602763200,
+			"sell": 5010,
+			"buy": 756,
+			"lowestSell": 900,
+			"highestBuy": 3000,
+			"volume": 26
+		},
+		{
+			"time": 1602774000,
+			"sell": 5010,
+			"buy": 756,
+			"lowestSell": 900,
+			"highestBuy": 3000,
+			"volume": 27
+		},
+		{
+			"time": 1602784800,
+			"sell": 5010,
+			"buy": 710,
+			"lowestSell": 1000,
+			"highestBuy": 1050,
+			"volume": 79
+		},
+		{
+			"time": 1602799200,
+			"sell": 5040,
+			"buy": 710,
+			"lowestSell": 500,
+			"highestBuy": 1050,
+			"volume": 45
+		},
+		{
+			"time": 1602810000,
+			"sell": 5040,
+			"buy": 710,
+			"lowestSell": 500,
+			"highestBuy": 1050,
+			"volume": 30
+		},
+		{
+			"time": 1602824400,
+			"sell": 5040,
+			"buy": 511,
+			"lowestSell": 500,
+			"highestBuy": 611,
+			"volume": 689
+		},
+		{
+			"time": 1602835200,
+			"sell": 5030,
+			"buy": 511,
+			"lowestSell": 2000,
+			"highestBuy": 611,
+			"volume": 36
+		},
+		{
+			"time": 1602846000,
+			"sell": 4980,
+			"buy": 510,
+			"lowestSell": 200,
+			"highestBuy": 611,
+			"volume": 43
+		},
+		{
+			"time": 1602860400,
+			"sell": 5000,
+			"buy": 509,
+			"lowestSell": 1,
+			"highestBuy": 611,
+			"volume": 34
+		},
+		{
+			"time": 1602871200,
+			"sell": 5030,
+			"buy": 509,
+			"lowestSell": 2000,
+			"highestBuy": 611,
+			"volume": 60
+		},
+		{
+			"time": 1602885600,
+			"sell": 5010,
+			"buy": 509,
+			"lowestSell": 3000,
+			"highestBuy": 611,
+			"volume": 64
+		},
+		{
+			"time": 1602896400,
+			"sell": 5040,
+			"buy": 509,
+			"lowestSell": 2000,
+			"highestBuy": 611,
+			"volume": 45
+		},
+		{
+			"time": 1602907200,
+			"sell": 5030,
+			"buy": 510,
+			"lowestSell": 4000,
+			"highestBuy": 611,
+			"volume": 122
+		},
+		{
+			"time": 1602921600,
+			"sell": 5020,
+			"buy": 506,
+			"lowestSell": 2000,
+			"highestBuy": 611,
+			"volume": 88
+		},
+		{
+			"time": 1602932400,
+			"sell": 5030,
+			"buy": 626,
+			"lowestSell": 4000,
+			"highestBuy": 750,
+			"volume": 37
+		},
+		{
+			"time": 1602946800,
+			"sell": 5010,
+			"buy": 626,
+			"lowestSell": 1111,
+			"highestBuy": 750,
+			"volume": 68
+		},
+		{
+			"time": 1602957600,
+			"sell": 5020,
+			"buy": 625,
+			"lowestSell": 4000,
+			"highestBuy": 751,
+			"volume": 211
+		},
+		{
+			"time": 1602968400,
+			"sell": 4980,
+			"buy": 767,
+			"lowestSell": 500,
+			"highestBuy": 1500,
+			"volume": 1003
+		},
+		{
+			"time": 1602982800,
+			"sell": 5090,
+			"buy": 762,
+			"lowestSell": 1111,
+			"highestBuy": 1500,
+			"volume": 36
+		},
+		{
+			"time": 1602993600,
+			"sell": 4970,
+			"buy": 754,
+			"lowestSell": 1000,
+			"highestBuy": 1500,
+			"volume": 34
+		},
+		{
+			"time": 1603008000,
+			"sell": 5000,
+			"buy": 753,
+			"lowestSell": 1111,
+			"highestBuy": 1500,
+			"volume": 27
+		},
+		{
+			"time": 1603018800,
+			"sell": 5040,
+			"buy": 1550,
+			"lowestSell": 4000,
+			"highestBuy": 1701,
+			"volume": 51
+		},
+		{
+			"time": 1603029600,
+			"sell": 4980,
+			"buy": 1550,
+			"lowestSell": 1111,
+			"highestBuy": 1701,
+			"volume": 50
+		},
+		{
+			"time": 1603044000,
+			"sell": 4960,
+			"buy": 1060,
+			"lowestSell": 1111,
+			"highestBuy": 1700,
+			"volume": 28
+		},
+		{
+			"time": 1603054800,
+			"sell": 5040,
+			"buy": 1050,
+			"lowestSell": 4000,
+			"highestBuy": 1700,
+			"volume": 114
+		},
+		{
+			"time": 1603069200,
+			"sell": 4970,
+			"buy": 1040,
+			"lowestSell": 1111,
+			"highestBuy": 1700,
+			"volume": 86
+		},
+		{
+			"time": 1603080000,
+			"sell": 4970,
+			"buy": 1040,
+			"lowestSell": 1111,
+			"highestBuy": 1700,
+			"volume": 22
+		},
+		{
+			"time": 1603090800,
+			"sell": 5020,
+			"buy": 1040,
+			"lowestSell": 4000,
+			"highestBuy": 1700,
+			"volume": 40
+		},
+		{
+			"time": 1603105200,
+			"sell": 4980,
+			"buy": 511,
+			"lowestSell": 1500,
+			"highestBuy": 1500,
+			"volume": 946
+		},
+		{
+			"time": 1603116000,
+			"sell": 4970,
+			"buy": 504,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 48
+		},
+		{
+			"time": 1603130400,
+			"sell": 5070,
+			"buy": 502,
+			"lowestSell": 4900,
+			"highestBuy": 1500,
+			"volume": 44
+		},
+		{
+			"time": 1603141200,
+			"sell": 5070,
+			"buy": 501,
+			"lowestSell": 4900,
+			"highestBuy": 611,
+			"volume": 33
+		},
+		{
+			"time": 1603152000,
+			"sell": 5070,
+			"buy": 501,
+			"lowestSell": 2000,
+			"highestBuy": 800,
+			"volume": 27
+		},
+		{
+			"time": 1603166400,
+			"sell": 4930,
+			"buy": 500,
+			"lowestSell": 1,
+			"highestBuy": 500,
+			"volume": 47
+		},
+		{
+			"time": 1603177200,
+			"sell": 5060,
+			"buy": 500,
+			"lowestSell": 4000,
+			"highestBuy": 500,
+			"volume": 45
+		},
+		{
+			"time": 1603191600,
+			"sell": 4970,
+			"buy": 500,
+			"lowestSell": 2500,
+			"highestBuy": 500,
+			"volume": 27
+		},
+		{
+			"time": 1603202400,
+			"sell": 4880,
+			"buy": 500,
+			"lowestSell": 1,
+			"highestBuy": 500,
+			"volume": 35
+		},
+		{
+			"time": 1603213200,
+			"sell": 4900,
+			"buy": 500,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 33
+		},
+		{
+			"time": 1603227600,
+			"sell": 4870,
+			"buy": 500,
+			"lowestSell": 1,
+			"highestBuy": 500,
+			"volume": 17
+		},
+		{
+			"time": 1603238400,
+			"sell": 4740,
+			"buy": 500,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 102
+		},
+		{
+			"time": 1603252800,
+			"sell": 4810,
+			"buy": 500,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 29
+		},
+		{
+			"time": 1603263600,
+			"sell": 4700,
+			"buy": 500,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 30
+		},
+		{
+			"time": 1603429200,
+			"sell": 4900,
+			"buy": 272,
+			"lowestSell": 2,
+			"highestBuy": 500,
+			"volume": 405
+		},
+		{
+			"time": 1603440000,
+			"sell": 4690,
+			"buy": 272,
+			"lowestSell": 2,
+			"highestBuy": 500,
+			"volume": 36
+		},
+		{
+			"time": 1603454400,
+			"sell": 4520,
+			"buy": 272,
+			"lowestSell": 1000,
+			"highestBuy": 500,
+			"volume": 42
+		},
+		{
+			"time": 1603465200,
+			"sell": 4470,
+			"buy": 278,
+			"lowestSell": 100,
+			"highestBuy": 500,
+			"volume": 53
+		},
+		{
+			"time": 1603479600,
+			"sell": 4650,
+			"buy": 279,
+			"lowestSell": 100,
+			"highestBuy": 500,
+			"volume": 42
+		},
+		{
+			"time": 1603490400,
+			"sell": 4980,
+			"buy": 278,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 34
+		},
+		{
+			"time": 1603501200,
+			"sell": 5050,
+			"buy": 278,
+			"lowestSell": 100,
+			"highestBuy": 500,
+			"volume": 12
+		},
+		{
+			"time": 1603515600,
+			"sell": 4960,
+			"buy": 277,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 130
+		},
+		{
+			"time": 1603526400,
+			"sell": 4940,
+			"buy": 388,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 24
+		},
+		{
+			"time": 1603540800,
+			"sell": 4860,
+			"buy": 387,
+			"lowestSell": 100,
+			"highestBuy": 1000,
+			"volume": 38
+		},
+		{
+			"time": 1603551600,
+			"sell": 4780,
+			"buy": 384,
+			"lowestSell": 1000,
+			"highestBuy": 1000,
+			"volume": 36
+		},
+		{
+			"time": 1603562400,
+			"sell": 4610,
+			"buy": 383,
+			"lowestSell": 100,
+			"highestBuy": 1000,
+			"volume": 70
+		},
+		{
+			"time": 1603576800,
+			"sell": 4330,
+			"buy": 381,
+			"lowestSell": 50,
+			"highestBuy": 1000,
+			"volume": 44
+		},
+		{
+			"time": 1603587600,
+			"sell": 4290,
+			"buy": 380,
+			"lowestSell": 50,
+			"highestBuy": 1000,
+			"volume": 24
+		},
+		{
+			"time": 1603602000,
+			"sell": 4280,
+			"buy": 378,
+			"lowestSell": 50,
+			"highestBuy": 1000,
+			"volume": 23
+		},
+		{
+			"time": 1603612800,
+			"sell": 4290,
+			"buy": 376,
+			"lowestSell": 50,
+			"highestBuy": 1000,
+			"volume": 32
+		},
+		{
+			"time": 1603623600,
+			"sell": 5010,
+			"buy": 377,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 992
+		},
+		{
+			"time": 1603638000,
+			"sell": 5040,
+			"buy": 375,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 64
+		},
+		{
+			"time": 1603648800,
+			"sell": 5070,
+			"buy": 374,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 63
+		},
+		{
+			"time": 1603663200,
+			"sell": 5070,
+			"buy": 373,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 56
+		},
+		{
+			"time": 1603674000,
+			"sell": 5120,
+			"buy": 372,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 79
+		},
+		{
+			"time": 1603684800,
+			"sell": 5060,
+			"buy": 344,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 259
+		},
+		{
+			"time": 1603699200,
+			"sell": 5060,
+			"buy": 341,
+			"lowestSell": 1,
+			"highestBuy": 1000,
+			"volume": 50
+		},
+		{
+			"time": 1603710000,
+			"sell": 5100,
+			"buy": 340,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 22
+		},
+		{
+			"time": 1603724400,
+			"sell": 5110,
+			"buy": 340,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 29
+		},
+		{
+			"time": 1603735200,
+			"sell": 5000,
+			"buy": 338,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 56
+		},
+		{
+			"time": 1603746000,
+			"sell": 4990,
+			"buy": 344,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 29
+		},
+		{
+			"time": 1603760400,
+			"sell": 5040,
+			"buy": 342,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 43
+		},
+		{
+			"time": 1603771200,
+			"sell": 5040,
+			"buy": 341,
+			"lowestSell": 2000,
+			"highestBuy": 1000,
+			"volume": 25
+		},
+		{
+			"time": 1603785600,
+			"sell": 5000,
+			"buy": 340,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 30
+		},
+		{
+			"time": 1603796400,
+			"sell": 5000,
+			"buy": 338,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 34
+		},
+		{
+			"time": 1603807200,
+			"sell": 5000,
+			"buy": 337,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 55
+		},
+		{
+			"time": 1603821600,
+			"sell": 4990,
+			"buy": 336,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 30
+		},
+		{
+			"time": 1603832400,
+			"sell": 4960,
+			"buy": 334,
+			"lowestSell": 1000,
+			"highestBuy": 1000,
+			"volume": 24
+		},
+		{
+			"time": 1603846800,
+			"sell": 5020,
+			"buy": 334,
+			"lowestSell": 1000,
+			"highestBuy": 1000,
+			"volume": 37
+		},
+		{
+			"time": 1603857600,
+			"sell": 4990,
+			"buy": 332,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 35
+		},
+		{
+			"time": 1603868400,
+			"sell": 5070,
+			"buy": 330,
+			"lowestSell": 4000,
+			"highestBuy": 1000,
+			"volume": 32
+		},
+		{
+			"time": 1603954800,
+			"sell": 5040,
+			"buy": 320,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 171
+		},
+		{
+			"time": 1603965600,
+			"sell": 5010,
+			"buy": 483,
+			"lowestSell": 1199,
+			"highestBuy": 1000,
+			"volume": 126
+		},
+		{
+			"time": 1603976400,
+			"sell": 5010,
+			"buy": 483,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 38
+		},
+		{
+			"time": 1603990800,
+			"sell": 5010,
+			"buy": 485,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 29
+		},
+		{
+			"time": 1604001600,
+			"sell": 4980,
+			"buy": 483,
+			"lowestSell": 1,
+			"highestBuy": 1000,
+			"volume": 27
+		},
+		{
+			"time": 1604016000,
+			"sell": 4990,
+			"buy": 481,
+			"lowestSell": 500,
+			"highestBuy": 1000,
+			"volume": 38
+		},
+		{
+			"time": 1604026800,
+			"sell": 4960,
+			"buy": 481,
+			"lowestSell": 1199,
+			"highestBuy": 1500,
+			"volume": 99
+		},
+		{
+			"time": 1604037600,
+			"sell": 4980,
+			"buy": 480,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 51
+		},
+		{
+			"time": 1604052000,
+			"sell": 4860,
+			"buy": 468,
+			"lowestSell": 2500,
+			"highestBuy": 1000,
+			"volume": 62
+		},
+		{
+			"time": 1604062800,
+			"sell": 4760,
+			"buy": 469,
+			"lowestSell": 1,
+			"highestBuy": 1000,
+			"volume": 32
+		},
+		{
+			"time": 1604077200,
+			"sell": 4730,
+			"buy": 469,
+			"lowestSell": 1,
+			"highestBuy": 1000,
+			"volume": 74
+		},
+		{
+			"time": 1604088000,
+			"sell": 4880,
+			"buy": 467,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 44
+		},
+		{
+			"time": 1604098800,
+			"sell": 4880,
+			"buy": 468,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 14
+		},
+		{
+			"time": 1604113200,
+			"sell": 4880,
+			"buy": 466,
+			"lowestSell": 4000,
+			"highestBuy": 1000,
+			"volume": 14
+		},
+		{
+			"time": 1604124000,
+			"sell": 4870,
+			"buy": 465,
+			"lowestSell": 4000,
+			"highestBuy": 1000,
+			"volume": 29
+		},
+		{
+			"time": 1604138400,
+			"sell": 4610,
+			"buy": 460,
+			"lowestSell": 1000,
+			"highestBuy": 1000,
+			"volume": 56
+		},
+		{
+			"time": 1604149200,
+			"sell": 4500,
+			"buy": 495,
+			"lowestSell": 100,
+			"highestBuy": 1100,
+			"volume": 65
+		},
+		{
+			"time": 1604160000,
+			"sell": 4660,
+			"buy": 493,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 29
+		},
+		{
+			"time": 1604174400,
+			"sell": 4840,
+			"buy": 492,
+			"lowestSell": 2000,
+			"highestBuy": 1100,
+			"volume": 39
+		},
+		{
+			"time": 1604185200,
+			"sell": 4520,
+			"buy": 491,
+			"lowestSell": 100,
+			"highestBuy": 1100,
+			"volume": 25
+		},
+		{
+			"time": 1604199600,
+			"sell": 4790,
+			"buy": 491,
+			"lowestSell": 1450,
+			"highestBuy": 1100,
+			"volume": 127
+		},
+		{
+			"time": 1604210400,
+			"sell": 4900,
+			"buy": 487,
+			"lowestSell": 4900,
+			"highestBuy": 1100,
+			"volume": 27
+		},
+		{
+			"time": 1604221200,
+			"sell": 4920,
+			"buy": 486,
+			"lowestSell": 4900,
+			"highestBuy": 1100,
+			"volume": 28
+		},
+		{
+			"time": 1604235600,
+			"sell": 4440,
+			"buy": 413,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 1036
+		},
+		{
+			"time": 1604246400,
+			"sell": 4940,
+			"buy": 401,
+			"lowestSell": 4900,
+			"highestBuy": 1100,
+			"volume": 43
+		},
+		{
+			"time": 1604260800,
+			"sell": 5080,
+			"buy": 482,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 41
+		},
+		{
+			"time": 1604271600,
+			"sell": 5090,
+			"buy": 479,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 134
+		},
+		{
+			"time": 1604282400,
+			"sell": 5160,
+			"buy": 478,
+			"lowestSell": 4000,
+			"highestBuy": 1100,
+			"volume": 29
+		},
+		{
+			"time": 1604296800,
+			"sell": 5070,
+			"buy": 477,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 21
+		},
+		{
+			"time": 1604307600,
+			"sell": 5140,
+			"buy": 475,
+			"lowestSell": 4000,
+			"highestBuy": 1100,
+			"volume": 31
+		},
+		{
+			"time": 1604322000,
+			"sell": 5140,
+			"buy": 471,
+			"lowestSell": 4000,
+			"highestBuy": 1100,
+			"volume": 27
+		},
+		{
+			"time": 1604332800,
+			"sell": 5060,
+			"buy": 469,
+			"lowestSell": 1000,
+			"highestBuy": 1100,
+			"volume": 21
+		},
+		{
+			"time": 1604383200,
+			"sell": 5160,
+			"buy": 458,
+			"lowestSell": 4900,
+			"highestBuy": 1100,
+			"volume": 395
+		},
+		{
+			"time": 1604397600,
+			"sell": 5120,
+			"buy": 456,
+			"lowestSell": 4000,
+			"highestBuy": 1100,
+			"volume": 20
+		},
+		{
+			"time": 1604408400,
+			"sell": 5110,
+			"buy": 455,
+			"lowestSell": 4000,
+			"highestBuy": 1100,
+			"volume": 20
+		},
+		{
+			"time": 1604422800,
+			"sell": 5110,
+			"buy": 500,
+			"lowestSell": 4900,
+			"highestBuy": 500,
+			"volume": 57
+		},
+		{
+			"time": 1604433600,
+			"sell": 4670,
+			"buy": 500,
+			"lowestSell": 1000,
+			"highestBuy": 500,
+			"volume": 25
+		},
+		{
+			"time": 1604448000,
+			"sell": 5100,
+			"buy": 500,
+			"lowestSell": 4000,
+			"highestBuy": 500,
+			"volume": 31
+		},
+		{
+			"time": 1604458800,
+			"sell": 3880,
+			"buy": 500,
+			"lowestSell": 1000,
+			"highestBuy": 500,
+			"volume": 61
+		},
+		{
+			"time": 1604469600,
+			"sell": 3220,
+			"buy": 468,
+			"lowestSell": 1000,
+			"highestBuy": 500,
+			"volume": 11
+		},
+		{
+			"time": 1604610000,
+			"sell": 2860,
+			"buy": 471,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 201
+		},
+		{
+			"time": 1604624400,
+			"sell": 2860,
+			"buy": 471,
+			"lowestSell": 2000,
+			"highestBuy": 500,
+			"volume": 23
+		},
+		{
+			"time": 1604638800,
+			"sell": 3000,
+			"buy": 471,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 43
+		},
+		{
+			"time": 1604653200,
+			"sell": 3000,
+			"buy": 472,
+			"lowestSell": 3000,
+			"highestBuy": 1000,
+			"volume": 32
+		},
+		{
+			"time": 1604667600,
+			"sell": 5000,
+			"buy": 500,
+			"lowestSell": 5000,
+			"highestBuy": 1000,
+			"volume": 20
+		},
+		{
+			"time": 1604682000,
+			"sell": 3080,
+			"buy": 500,
+			"lowestSell": 1748,
+			"highestBuy": 1000,
+			"volume": 124
+		},
+		{
+			"time": 1604700000,
+			"sell": 2890,
+			"buy": 914,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 34
+		},
+		{
+			"time": 1604714400,
+			"sell": 3620,
+			"buy": 913,
+			"lowestSell": 2499,
+			"highestBuy": 1500,
+			"volume": 31
+		},
+		{
+			"time": 1604728800,
+			"sell": 5000,
+			"buy": 911,
+			"lowestSell": 5000,
+			"highestBuy": 1500,
+			"volume": 35
+		},
+		{
+			"time": 1604743200,
+			"sell": 3480,
+			"buy": 910,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 44
+		},
+		{
+			"time": 1604757600,
+			"sell": 4670,
+			"buy": 908,
+			"lowestSell": 4000,
+			"highestBuy": 1500,
+			"volume": 36
+		},
+		{
+			"time": 1604772000,
+			"sell": 3260,
+			"buy": 907,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 33
+		},
+		{
+			"time": 1604786400,
+			"sell": 5050,
+			"buy": 885,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 46
+		},
+		{
+			"time": 1604800800,
+			"sell": 5050,
+			"buy": 884,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 29
+		},
+		{
+			"time": 1604815200,
+			"sell": 5070,
+			"buy": 883,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 22
+		},
+		{
+			"time": 1604829600,
+			"sell": 5020,
+			"buy": 840,
+			"lowestSell": 4500,
+			"highestBuy": 1500,
+			"volume": 1033
+		},
+		{
+			"time": 1604844000,
+			"sell": 5030,
+			"buy": 841,
+			"lowestSell": 2250,
+			"highestBuy": 1500,
+			"volume": 36
+		},
+		{
+			"time": 1604858400,
+			"sell": 5030,
+			"buy": 841,
+			"lowestSell": 1000,
+			"highestBuy": 1500,
+			"volume": 32
+		},
+		{
+			"time": 1604876400,
+			"sell": 5090,
+			"buy": 840,
+			"lowestSell": 4500,
+			"highestBuy": 1500,
+			"volume": 39
+		},
+		{
+			"time": 1604890800,
+			"sell": 5070,
+			"buy": 837,
+			"lowestSell": 1,
+			"highestBuy": 1500,
+			"volume": 43
+		},
+		{
+			"time": 1604905200,
+			"sell": 5090,
+			"buy": 835,
+			"lowestSell": 3500,
+			"highestBuy": 1500,
+			"volume": 36
+		},
+		{
+			"time": 1604919600,
+			"sell": 5050,
+			"buy": 835,
+			"lowestSell": 300,
+			"highestBuy": 1500,
+			"volume": 28
+		},
+		{
+			"time": 1604934000,
+			"sell": 5090,
+			"buy": 835,
+			"lowestSell": 5000,
+			"highestBuy": 1500,
+			"volume": 41
+		},
+		{
+			"time": 1604948400,
+			"sell": 5060,
+			"buy": 835,
+			"lowestSell": 300,
+			"highestBuy": 1500,
+			"volume": 42
+		},
+		{
+			"time": 1604962800,
+			"sell": 5050,
+			"buy": 834,
+			"lowestSell": 300,
+			"highestBuy": 1500,
+			"volume": 76
+		},
+		{
+			"time": 1604977200,
+			"sell": 5090,
+			"buy": 833,
+			"lowestSell": 4900,
+			"highestBuy": 1500,
+			"volume": 32
+		},
+		{
+			"time": 1604991600,
+			"sell": 5090,
+			"buy": 833,
+			"lowestSell": 4900,
+			"highestBuy": 1500,
+			"volume": 25
+		},
+		{
+			"time": 1605006000,
+			"sell": 5060,
+			"buy": 829,
+			"lowestSell": 3000,
+			"highestBuy": 1500,
+			"volume": 43
+		},
+		{
+			"time": 1605020400,
+			"sell": 5010,
+			"buy": 633,
+			"lowestSell": 300,
+			"highestBuy": 1500,
+			"volume": 1048
+		},
+		{
+			"time": 1605034800,
+			"sell": 5020,
+			"buy": 631,
+			"lowestSell": 4500,
+			"highestBuy": 1500,
+			"volume": 34
+		},
+		{
+			"time": 1605049200,
+			"sell": 5020,
+			"buy": 628,
+			"lowestSell": 2000,
+			"highestBuy": 2000,
+			"volume": 152
+		},
+		{
+			"time": 1605067200,
+			"sell": 5020,
+			"buy": 626,
+			"lowestSell": 1000,
+			"highestBuy": 1500,
+			"volume": 39
+		},
+		{
+			"time": 1605081600,
+			"sell": 5020,
+			"buy": 624,
+			"lowestSell": 2000,
+			"highestBuy": 1500,
+			"volume": 35
+		},
+		{
+			"time": 1606525200,
+			"sell": 5170,
+			"buy": 547,
+			"lowestSell": 5170,
+			"highestBuy": 3500,
+			"volume": 3678
+		},
+		{
+			"time": 1606536000,
+			"sell": 5170,
+			"buy": 547,
+			"lowestSell": 99,
+			"highestBuy": 3500,
+			"volume": 14
+		},
+		{
+			"time": 1606550400,
+			"sell": 5170,
+			"buy": 546,
+			"lowestSell": 5169,
+			"highestBuy": 3500,
+			"volume": 24
+		},
+		{
+			"time": 1606561200,
+			"sell": 5170,
+			"buy": 546,
+			"lowestSell": 5160,
+			"highestBuy": 3500,
+			"volume": 40
+		},
+		{
+			"time": 1606575600,
+			"sell": 5000,
+			"buy": 548,
+			"lowestSell": 5000,
+			"highestBuy": 3500,
+			"volume": 996
+		},
+		{
+			"time": 1606586400,
+			"sell": 5000,
+			"buy": 547,
+			"lowestSell": 5000,
+			"highestBuy": 3500,
+			"volume": 50
+		},
+		{
+			"time": 1606597200,
+			"sell": 5000,
+			"buy": 547,
+			"lowestSell": 5000,
+			"highestBuy": 3500,
+			"volume": 49
+		},
+		{
+			"time": 1606611600,
+			"sell": 5010,
+			"buy": 547,
+			"lowestSell": 5000,
+			"highestBuy": 3500,
+			"volume": 22
+		},
+		{
+			"time": 1606622400,
+			"sell": 5000,
+			"buy": 548,
+			"lowestSell": 5000,
+			"highestBuy": 3500,
+			"volume": 34
+		}
+	]
+}

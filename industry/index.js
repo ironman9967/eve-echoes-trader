@@ -27,6 +27,9 @@ module.exports = {
 		const priceProductionType = (type, itemProduction, modifier = 1) => Promise.all(
 			itemProduction[type].map(({ name, amount }) =>
 				feelingLuckyMkt(name).then(item => {
+					if (item == null) {
+						throw new Error(`item not found: ${name}`)
+					}
 					const unmodifiedAmount = mathjs.round(amount, 3)
 					const unmodifiedValue = mathjs.chain(item.sell)
 						.multiply(unmodifiedAmount)
