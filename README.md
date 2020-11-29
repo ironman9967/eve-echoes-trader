@@ -39,8 +39,6 @@
   <p align="center">
     A cli based market data searching system utilizing data from https://eve-echoes-market.com/api
     <br />
-    <a href="https://github.com/ironman9967/eve-echoes-trader"><strong>Explore the docs »</strong></a>
-    <br />
     <a href="https://github.com/ironman9967/eve-echoes-trader/issues">Report Bug</a>
     ·
     <a href="https://github.com/ironman9967/eve-echoes-trader/issues">Request Feature</a>
