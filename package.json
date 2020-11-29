@@ -1,6 +1,6 @@
 {
   "name": "eve-echoes-trader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": "index.js",
   "description": "",
   "main": "index.js",
@@ -9,19 +9,19 @@
     "start": "node index.js",
     "clear-cache": "rm -rf cache",
     "start-clean": "npm run clear-cache && npm start",
-	"publish-patch": "npm version patch && npm publish && git push",
-	"publish-minor": "npm version minor && npm publish && git push",
-	"publish-major": "npm version major && npm publish && git push"
+    "publish-patch": "npm version patch && npm publish && git push",
+    "publish-minor": "npm version minor && npm publish && git push",
+    "publish-major": "npm version major && npm publish && git push"
   },
   "keywords": [],
   "author": "Ledrugk",
   "license": "ISC",
   "repository": {
-	  "type": "git",
-	  "url": "git+https://github.com/ironman9967/eve-echoes-trader.git"
+    "type": "git",
+    "url": "git+https://github.com/ironman9967/eve-echoes-trader.git"
   },
   "bugs": {
-	  "url": "https://github.com/ironman9967/eve-echoes-trader/issues"
+    "url": "https://github.com/ironman9967/eve-echoes-trader/issues"
   },
   "homepage": "https://github.com/ironman9967/eve-echoes-trader#readme",
   "dependencies": {
