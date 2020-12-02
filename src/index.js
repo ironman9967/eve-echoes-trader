@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { name: appName, version } = require('./package.json')
+const { name: appName, version } = require('../package.json')
 
 const os = require('os')
 const fs = require('fs-extra')
