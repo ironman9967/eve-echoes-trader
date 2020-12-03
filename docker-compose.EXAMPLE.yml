@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  ledsrv:
+    build: .
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pwd
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+    networks:
+      - lednet
+  mongo:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pwd
+    ports:
+      - 27017:27017
+    networks:
+      - lednet
+    volumes:
+      - mongodb_data_container:/data/db
+
+networks:
+  lednet:
+    driver: bridge
+
+volumes:
+  mongodb_data_container:

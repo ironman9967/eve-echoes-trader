@@ -6,9 +6,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "rm -rf build && mkdir build && cp -R src/. build/",
+    "build": "rm -rf build && mkdir build && cp -R src/. build/",
     "start": "node build/index.js",
-	"start-build": "npm run build && npm run start",
+    "start-build": "npm run build && npm run start",
     "clear-cache": "rm -rf build/cache",
     "start-clean": "npm run clear-cache && npm start",
     "publish-patch": "npm version patch && npm publish && git push",
@@ -35,6 +35,7 @@
     "lodash": "^4.17.20",
     "mathjs": "^7.5.1",
     "minisearch": "^3.0.0",
+    "mongodb": "^3.6.3",
     "node-fetch": "^2.6.1",
     "walkdir": "^0.4.1"
   }
