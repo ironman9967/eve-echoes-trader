@@ -1,6 +1,6 @@
 {
   "name": "eve-echoes-trader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "index.js",
   "description": "",
   "main": "build/index.js",
