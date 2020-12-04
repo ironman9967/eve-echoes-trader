@@ -63,7 +63,7 @@
 
 To get a local copy up and running follow these simple steps.
 
-Please note EVE Echoes Trader currently uses the local filesystem for caching.
+README NEEDS TO BE UPDATED! NOT CURRENT :)
 
 ### Prerequisites
 

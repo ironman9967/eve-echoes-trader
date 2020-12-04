@@ -14,6 +14,7 @@ module.exports = ({
 				.then(lines => lines.map(line => line.split(',')))
 				.then(items => ({
 					meta: {
+						id: 0,
 						lastDownload: {
 							stamp,
 							duration: Date.now() - stamp
@@ -37,12 +38,13 @@ module.exports = ({
 					try {
 						return {
 							meta: {
+								itemId,
 								lastDownload: {
 									stamp,
 									duration: Date.now() - stamp
 								}
 							},
-							entries: JSON.parse(text).map(({
+							stats: JSON.parse(text).map(({
 								time,
 								sell,
 								buy,
@@ -50,6 +52,7 @@ module.exports = ({
 								highest_buy,
 								...item
 							}) => ({
+								itemId,
 								time: sanitizeDate(time),
 								sell: sanitizeFloat(sell),
 								buy: sanitizeFloat(buy),

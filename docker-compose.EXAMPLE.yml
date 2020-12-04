@@ -3,29 +3,24 @@ services:
   ledsrv:
     build: .
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: pwd
+      MONGO_INITDB_ROOT_USERNAME: CHANGEME
+      MONGO_INITDB_ROOT_PASSWORD: CHANGEME_PWD
+      MONGO_INITDB_DATABASE: eedata
     ports:
       - "8080:8080"
     depends_on:
-      - mongo
-    networks:
-      - lednet
-  mongo:
+      - eedata
+  eedata:
     image: mongo:latest
+    restart: always
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: pwd
+      MONGO_INITDB_ROOT_USERNAME: CHANGEME
+      MONGO_INITDB_ROOT_PASSWORD: CHANGEME_PWD
+      MONGO_INITDB_DATABASE: eedata
     ports:
       - 27017:27017
-    networks:
-      - lednet
     volumes:
       - mongodb_data_container:/data/db
-
-networks:
-  lednet:
-    driver: bridge
 
 volumes:
   mongodb_data_container:
