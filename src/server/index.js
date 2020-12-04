@@ -3,10 +3,11 @@ module.exports = {
 	create: ({
 		Hapi,
 		port,
+		tls,
 		aboutJson,
 		market: { search, getItem, getItemNames, getItemByItemId }
 	} = {}) => {
-		const server = Hapi.server({ port })
+		const server = Hapi.server({ port, tls })
 		server.route({
 			method: 'GET',
 			path: '/api/about',

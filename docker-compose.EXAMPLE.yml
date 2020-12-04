@@ -2,12 +2,15 @@ version: "3.8"
 services:
   ledsrv:
     build: .
+    restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: CHANGEME
       MONGO_INITDB_ROOT_PASSWORD: CHANGEME_PWD
       MONGO_INITDB_DATABASE: eedata
     ports:
       - "8080:8080"
+    volumes:
+      - [/path/to/certs]:/data/cert
     depends_on:
       - eedata
   eedata:
@@ -24,3 +27,8 @@ services:
 
 volumes:
   mongodb_data_container:
+    driver: local
+    driver_opts:
+      type: none
+      device: [/path/to/db]
+      o: bind

@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const fs = require('fs')
+
 const { name: appName, version } = require('../package.json')
 
 const cli = require('cli')
@@ -72,7 +74,16 @@ cli.main((args, {
 		cli.debug(`market loaded (${Date.now() - started}ms)`)
 		switch (cli.command) {
 			case 'serve':
-				createServer({ Hapi, aboutJson, port, market }).start()
+				createServer({
+					Hapi,
+					port,
+					tls: {
+						key: fs.readFileSync('/data/cert/privkey.pem'),
+						cert: fs.readFileSync('/data/cert/fullchain.pem')
+					},
+					aboutJson,
+					market
+				}).start()
 					.then(() => cli.info(`server up at http://localhost:${port}/`))
 				break
 			case 'item-search':
