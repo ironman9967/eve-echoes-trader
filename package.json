@@ -1,6 +1,6 @@
 {
   "name": "eve-echoes-trader",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "bin": "index.js",
   "description": "",
   "main": "build/index.js",
@@ -14,7 +14,7 @@
     "publish-patch": "npm version patch && npm publish && git push",
     "publish-minor": "npm version minor && npm publish && git push",
     "publish-major": "npm version major && npm publish && git push",
-	"docker-local": "npm run build && docker-compose build  && docker-compose up --exit-code-from ledsrv || docker-compose down && docker volume prune -f && docker image prune -f"
+    "docker-local": "npm run build && docker-compose build  && docker-compose up --exit-code-from ledsrv || docker-compose down && docker volume prune -f && docker image prune -f"
   },
   "keywords": [],
   "author": "Ledrugk",
