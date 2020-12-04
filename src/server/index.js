@@ -3,9 +3,15 @@ module.exports = {
 	create: ({
 		Hapi,
 		port,
+		aboutJson,
 		market: { search, getItem, getItemNames, getItemByItemId }
 	} = {}) => {
 		const server = Hapi.server({ port })
+		server.route({
+			method: 'GET',
+			path: '/api/about',
+			handler: (req, h) => h.response(aboutJson)
+		})
 		server.route({
 			method: 'GET',
 			path: '/api/item/search',
@@ -33,6 +39,14 @@ module.exports = {
 		})
 		server.route({
 			method: 'GET',
+			path: '/api/item/{itemId}/stats',
+			handler: (req, h) => getItemByItemId(req.params.itemId, true)
+				.then(item => item
+					? h.response(item)
+					: h.response({ msg: 'no match' }))
+		})
+		server.route({
+			method: 'GET',
 			path: '/api/item',
 			handler: (req, h) => {
 				const name = req.query.name
@@ -42,6 +56,11 @@ module.exports = {
 						? h.response(item)
 						: h.response({ msg: 'no match' }))
 			}
+		})
+		server.route({
+			method: '*',
+			path: '/{p*}',
+			handler: (req, h) => h.response().code(404)
 		})
 		return { start: () => server.start() }
 	}

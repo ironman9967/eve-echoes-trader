@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  ledsrv:
+    build: .
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: CHANGEME
+      MONGO_INITDB_ROOT_PASSWORD: CHANGEME_PWD
+      MONGO_INITDB_DATABASE: eedata
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eedata
+  eedata:
+    image: mongo:latest
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: CHANGEME
+      MONGO_INITDB_ROOT_PASSWORD: CHANGEME_PWD
+      MONGO_INITDB_DATABASE: eedata
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container:
