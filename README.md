@@ -27,10 +27,10 @@
   </p>
 </p>
 
-
+# Table of Contents
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary></summary>
   <ol>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -44,10 +44,12 @@
 	  <ul>
 	    <li><a href="#display-help">Display Help</li>
 	    <li><a href="#http-server">HTTP Server</li>
+	    <li><a href="#about">About</li>
 	    <li><a href="#item-search">Item Search</li>
 	    <li><a href="#item-names">Item Names</li>
 	    <li><a href="#item-by-name">Item by Name</li>
 	    <li><a href="#item-by-id">Item by ID</li>
+	    <li><a href="#item-by-id-stats">Item by ID Stats</li>
 	  </ul>
 	</li>
     <li><a href="#contributing">Contributing</a></li>
@@ -62,8 +64,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-
-README NEEDS TO BE UPDATED! NOT CURRENT :)
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Prerequisites
 
@@ -72,6 +73,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Installation
 
@@ -83,6 +85,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -90,30 +93,267 @@ This is an example of how to list things you need to use the software and how to
 Please note all commands are available via `npm start`, just include the `--` required by npm to pass parameters to the application. i.e. - `npm start -- --help`
 
 ### Display Help
-```
+```sh
 npx eve-echoes-trader --help
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### HTTP Server
-```
+```sh
 npx eve-echoes-trader serve --port 8765
 ```
+<li><a href="#table-of-contents">back to top</a></li>
+
+### About
+```
+GET /api/about
+```
+* example response: 
+```json
+{ "appName": "eve-echoes-trader", "version": "1.0.1", "about": "eve-echoes-trader v1.0.1" }
+```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item Search
-- cli: ```npx eve-echoes-trader item-search --term veld```
-- api: ```GET /api/item/search?term=veld```
+```
+GET /api/item/search?term=[term to fuzzy search]
+```
+* example response for `term=veld`: 
+```json
+[
+  {
+    "id": 1552,
+    "terms": [
+      "veldspar"
+    ],
+    "score": 29.209565298787776,
+    "match": {
+      "veldspar": [
+        "name"
+      ]
+    },
+    "name": "Veldspar",
+    "itemId": "51000000000"
+  }
+]
+```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item Names
-- cli: ```npx eve-echoes-trader item-names --use-json```
-- api: ```GET /api/item/names```
+```
+GET /api/item/names
+```
+* example response for `term=veld`: 
+```json
+[ "Griffin", "Bantam", "Bantam II" ]
+```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item by Name
-- cli: ```npx eve-echoes-trader item-by-name --name veldspar --use-json```
-- api: ```GET /api/item?name=veldspar```
+```
+GET /api/item?name=[name to fuzzy search]
+```
+* example response for `name=veld`:
+```json
+{
+  "headMeta": {
+    "_id": "5fc9b65c3e811fd806709dca",
+    "id": 0,
+    "lastDownload": {
+      "stamp": 1607054940244,
+      "duration": 150
+    }
+  },
+  "id": 1552,
+  "itemId": "51000000000",
+  "name": "Veldspar",
+  "statsMeta": {
+    "_id": "5fca92a9c0ab8d06ba41eab0",
+    "itemId": "51000000000",
+    "lastDownload": {
+      "stamp": 1607111337181,
+      "duration": 282
+    }
+  },
+  "aggregates": {
+    "time": {
+      "min": 1599555600,
+      "max": 1607097600,
+      "mean": 1602719045.7831326
+    },
+    "volume": {
+      "min": 2.63,
+      "max": 7.62,
+      "mean": 5.711277108433733
+    },
+    "sell": {
+      "min": 1599555600,
+      "max": 1607097600,
+      "mean": 1602719045.7831326
+    },
+    "lowestSell": {
+      "min": 1,
+      "max": 6,
+      "mean": 3.0289156626506024
+    },
+    "highestBuy": {
+      "min": 5,
+      "max": 17.14,
+      "mean": 7.149590361445781
+    },
+    "buy": {
+      "min": 4.24,
+      "max": 6.52,
+      "mean": 5.478024096385543
+    }
+  }
+}
+```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item by ID
-- cli: ```npx eve-echoes-trader item-by-id --itemid 51000000000```
-- api: ```GET /api/item/51000000000```
+```
+GET /api/item/[item ID]
+```
+* example response for `/api/item/51000000000`:
+```json
+{
+  "headMeta": {
+    "_id": "5fc9b65c3e811fd806709dca",
+    "id": 0,
+    "lastDownload": {
+      "stamp": 1607054940244,
+      "duration": 150
+    }
+  },
+  "id": 1552,
+  "itemId": "51000000000",
+  "name": "Veldspar",
+  "statsMeta": {
+    "_id": "5fca92a9c0ab8d06ba41eab0",
+    "itemId": "51000000000",
+    "lastDownload": {
+      "stamp": 1607111337181,
+      "duration": 282
+    }
+  },
+  "aggregates": {
+    "time": {
+      "min": 1599555600,
+      "max": 1607097600,
+      "mean": 1602719045.7831326
+    },
+    "volume": {
+      "min": 2.63,
+      "max": 7.62,
+      "mean": 5.711277108433733
+    },
+    "sell": {
+      "min": 1599555600,
+      "max": 1607097600,
+      "mean": 1602719045.7831326
+    },
+    "lowestSell": {
+      "min": 1,
+      "max": 6,
+      "mean": 3.0289156626506024
+    },
+    "highestBuy": {
+      "min": 5,
+      "max": 17.14,
+      "mean": 7.149590361445781
+    },
+    "buy": {
+      "min": 4.24,
+      "max": 6.52,
+      "mean": 5.478024096385543
+    }
+  }
+}
+```
+<li><a href="#table-of-contents">back to top</a></li>
+
+### Item by ID Stats
+```
+GET /api/item/[item ID]/stats
+```
+* example response for `/api/item/51000000000/stats`:
+```json
+{
+  "headMeta": {
+    "_id": "5fc9b65c3e811fd806709dca",
+    "id": 0,
+    "lastDownload": {
+      "stamp": 1607054940244,
+      "duration": 150
+    }
+  },
+  "id": 1552,
+  "itemId": "51000000000",
+  "name": "Veldspar",
+  "statsMeta": {
+    "_id": "5fca93b2c0ab8d06ba41f4b1",
+    "itemId": "51000000000",
+    "lastDownload": {
+      "stamp": 1607111602723,
+      "duration": 225
+    }
+  },
+  "aggregates": {
+    "time": {
+      "min": 1599555600,
+      "max": 1607097600,
+      "mean": 1602719045.7831326
+    },
+    "volume": {
+      "min": 2.63,
+      "max": 7.62,
+      "mean": 5.711277108433733
+    },
+    "sell": {
+      "min": 1599555600,
+      "max": 1607097600,
+      "mean": 1602719045.7831326
+    },
+    "lowestSell": {
+      "min": 1,
+      "max": 6,
+      "mean": 3.0289156626506024
+    },
+    "highestBuy": {
+      "min": 5,
+      "max": 17.14,
+      "mean": 7.149590361445781
+    },
+    "buy": {
+      "min": 4.24,
+      "max": 6.52,
+      "mean": 5.478024096385543
+    }
+  },
+  "stats": [
+    {
+      "itemId": "51000000000",
+      "time": 1599555600,
+      "sell": 6.22,
+      "buy": 6.38,
+      "lowestSell": 1,
+      "highestBuy": 7,
+      "volume": null
+    },
+    {
+      "itemId": "51000000000",
+      "time": 1599570000,
+      "sell": 6.15,
+      "buy": 6.52,
+      "lowestSell": 1,
+      "highestBuy": 8,
+      "volume": 5926117
+    }
+  ]
+}
+```
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -125,15 +365,13 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- CONTACT -->
 ## Contact
@@ -141,3 +379,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Your Name - [@ledrugk](https://twitter.com/ledrugk) - ironman9967@gmail.com
 
 Project Link: [https://github.com/ironman9967/eve-echoes-trader](https://github.com/ironman9967/eve-echoes-trader)
+<li><a href="#table-of-contents">back to top</a></li>
