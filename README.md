@@ -90,26 +90,30 @@ This is an example of how to list things you need to use the software and how to
 Please note all commands are available via `npm start`, just include the `--` required by npm to pass parameters to the application. i.e. - `npm start -- --help`
 
 ### Display Help
-```
+```sh
 npx eve-echoes-trader --help
 ```
 
 ### HTTP Server
-```
+```sh
 npx eve-echoes-trader serve --port 8765
 ```
 
 ### About
-```GET /api/about```
-* response: 
 ```
+GET /api/about
+```
+* response: 
+```json
 { "appName": "eve-echoes-trader", "version": "1.0.1", "about": "eve-echoes-trader v1.0.1" }
 ```
 
 ### Item Search
-```GET /api/item/search?term=[term to fuzzy search]```
-* example response for `term=veld`: 
 ```
+GET /api/item/search?term=[term to fuzzy search]
+```
+* example response for `term=veld`: 
+```json
 [
   {
     "id": 1552,
@@ -142,7 +146,7 @@ GET /api/item/names
 GET /api/item?name=[name to fuzzy search]
 ```
 * example response for `name=veld`:
-```
+```json
 {
   "headMeta": {
     "_id": "5fc9b65c3e811fd806709dca",
@@ -203,7 +207,7 @@ GET /api/item?name=[name to fuzzy search]
 GET /api/item/[item ID]
 ```
 * example response for `/api/item/51000000000`:
-```
+```json
 {
   "headMeta": {
     "_id": "5fc9b65c3e811fd806709dca",
@@ -264,7 +268,7 @@ GET /api/item/[item ID]
 GET /api/item/[item ID]/stats
 ```
 * example response for `/api/item/51000000000/stats`:
-```
+```json
 {
   "headMeta": {
     "_id": "5fc9b65c3e811fd806709dca",
