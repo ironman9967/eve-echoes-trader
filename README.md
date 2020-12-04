@@ -103,7 +103,7 @@ npx eve-echoes-trader serve --port 8765
 ```
 GET /api/about
 ```
-* response: 
+* example response: 
 ```json
 { "appName": "eve-echoes-trader", "version": "1.0.1", "about": "eve-echoes-trader v1.0.1" }
 ```
