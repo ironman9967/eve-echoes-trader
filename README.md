@@ -27,10 +27,10 @@
   </p>
 </p>
 
-
+# Table of Contents
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary></summary>
   <ol>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -64,6 +64,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Prerequisites
 
@@ -72,6 +73,7 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Installation
 
@@ -83,6 +85,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -93,11 +96,13 @@ Please note all commands are available via `npm start`, just include the `--` re
 ```sh
 npx eve-echoes-trader --help
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### HTTP Server
 ```sh
 npx eve-echoes-trader serve --port 8765
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### About
 ```
@@ -107,6 +112,7 @@ GET /api/about
 ```json
 { "appName": "eve-echoes-trader", "version": "1.0.1", "about": "eve-echoes-trader v1.0.1" }
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item Search
 ```
@@ -131,6 +137,7 @@ GET /api/item/search?term=[term to fuzzy search]
   }
 ]
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item Names
 ```
@@ -140,6 +147,7 @@ GET /api/item/names
 ```json
 [ "Griffin", "Bantam", "Bantam II" ]
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item by Name
 ```
@@ -201,6 +209,7 @@ GET /api/item?name=[name to fuzzy search]
   }
 }
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item by ID
 ```
@@ -262,6 +271,7 @@ GET /api/item/[item ID]
   }
 }
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 ### Item by ID Stats
 ```
@@ -343,6 +353,7 @@ GET /api/item/[item ID]/stats
   ]
 }
 ```
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -354,15 +365,13 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
+<li><a href="#table-of-contents">back to top</a></li>
 
 <!-- CONTACT -->
 ## Contact
@@ -370,3 +379,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Your Name - [@ledrugk](https://twitter.com/ledrugk) - ironman9967@gmail.com
 
 Project Link: [https://github.com/ironman9967/eve-echoes-trader](https://github.com/ironman9967/eve-echoes-trader)
+<li><a href="#table-of-contents">back to top</a></li>
